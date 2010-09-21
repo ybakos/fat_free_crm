@@ -39,7 +39,7 @@ class ApplicationController < ActionController::Base
     else
       # Pre-I18n settings that need to be reloaded. Use English message text since the actual locale is unknown.
       raise FatFreeCRM::ObsoleteSettings, <<-OBSOLETE
-        It looks like you are upgrading from the older version of Fat Free CRM. Please review
+        It looks like you are upgrading from the older version of Spectrum CRM. Please review
         <b>config/settings.yml</b> file, and re-run<br><b>rake crm:settings:load</b> command
         in development and production environments.
       OBSOLETE
