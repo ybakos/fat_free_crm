@@ -21,3 +21,5 @@ begin
   require 'ap'
 rescue LoadError
 end
+
+Paperclip.options[:command_path] = "/usr/local/bin"
